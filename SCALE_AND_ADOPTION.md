@@ -191,7 +191,7 @@ about honestly:
   abuse patterns (repeated re-uploads to game a verdict) and in
   vision-model calls being significantly more expensive than text calls —
   both addressed by the rate-limiting and confidence-threshold mechanisms in
-  §2–3, not left unaddressed.
+  ₹200-300, not left unaddressed.
 
 ---
 
