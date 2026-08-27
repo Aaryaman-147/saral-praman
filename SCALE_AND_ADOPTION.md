@@ -1,6 +1,6 @@
 # Saral Praman — Scale, Infrastructure & Adoption
 
-*Companion doc to the PRD. Covers what changes between "hackathon prototype"
+*Covers what changes between "hackathon prototype"
 and "something that could actually run in a district." Written to be read by
 a judge asking "okay, but how would this actually work?" — so it doesn't
 hand-wave the hard parts.*
