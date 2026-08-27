@@ -86,8 +86,7 @@ plan:
   recalibrate the rule set — currently there's no mechanism for this, and
   building one is a prerequisite for trusting the system at scale.
 - **Auditable rules, not just an auditable interface.** Because
-  `checkInstructions` are stored as reviewable plain-language config (per
-  the PRD's "compiler" framing), a state government partner or independent
+  `checkInstructions` are stored as reviewable plain-language config, a state government partner or independent
   auditor can review exactly what's being checked without needing to
   understand prompt engineering — this is a deliberate design choice to make
   government partnership (Path A) and public trust more feasible, not an
@@ -114,8 +113,7 @@ language, which is a meaningfully higher bar than speaking it, especially on
 a shared or lower-end device without good regional-language keyboard
 support. **OpenAI TTS (text-to-speech, a separate capability from Whisper)**
 closes the loop by reading status explanations aloud — relevant both for
-literacy accessibility and for the "explaining this to a parent" use case
-named in the PRD's primary persona.
+literacy accessibility and for the "explaining this to a parent" use case.
 
 Neither is required for the MVP's core journey to work; both are natural,
 well-scoped next additions rather than speculative features.
