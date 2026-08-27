@@ -34,8 +34,6 @@ specific document, in *my* specific case, satisfy them?" before the
 applicant submits. And YouTube/WhatsApp self-help tutorials are often 1–3
 years stale against a portal that's since changed.
 
-Full problem framing, target user, and reasoning: see [`PRD.md`](./PRD.md).
-
 ## What this prototype does
 
 1. **Eligibility pre-check** — a few plain-language questions before any
@@ -44,8 +42,7 @@ Full problem framing, target user, and reasoning: see [`PRD.md`](./PRD.md).
    immediately against a plain-language, human-auditable rule set, with a
    specific verdict and reason — not a generic "issue found"
 3. **Readiness score** before submission — "3 of 4 documents look good, 1
-   needs attention" (informational, not a game mechanic — see PRD §6.2 for
-   why we deliberately avoided points/streaks/badges)
+   needs attention" (informational, not a game mechanic)
 4. **Stage-by-stage status tracking** — Submitted → Patwari verification →
    Tehsildar review → Issued, each stage explained in plain language, with
    who actually handles it and typical duration
@@ -113,8 +110,6 @@ mock responses, clearly labeled in the UI as demo mode.
 
 ## Project docs
 
-- [`PRD.md`](./PRD.md) — problem statement, target user, MVP scope, full
-  user journey, AI implementation approach, edge cases
 - [`SCALE_AND_ADOPTION.md`](./SCALE_AND_ADOPTION.md) — real infrastructure
   needed, government integration paths, AI trust/accuracy at scale,
   adoption strategy
