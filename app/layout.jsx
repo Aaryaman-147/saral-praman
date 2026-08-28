@@ -1,6 +1,6 @@
 import "./globals.css";
 import { LanguageProvider } from "@/components/LanguageContext";
-
+import { Analytics } from "@vercel/analytics/next"
 // NOTE: This build environment has no network access to fonts.googleapis.com,
 // so next/font/google cannot fetch Noto Sans / Noto Sans Devanagari / Special
 // Elite here. We fall back to a system-font stack that still covers
@@ -23,6 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${fontVars} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-paper text-ink">
+        <Analytics />
         <LanguageProvider>{children}</LanguageProvider>
       </body>
     </html>
